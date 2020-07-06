@@ -117,8 +117,6 @@ def bulk_populate_if_empty(prefix, proto_map):
                     storage[key] = {}
 
                     process_recursively(storage[key], path, proto_map_r[key])
-            else:
-                subscribe_to_path(path)
 
     m = storage_map
     if prefix != "" and prefix is not None:

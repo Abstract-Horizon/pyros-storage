@@ -20,7 +20,7 @@ import pyroslib
 
 DEBUG = False
 
-STORAGE_MAP_FILE = os.path.expanduser('~') + "/rover-storage.config"
+STORAGE_MAP_FILE = os.path.expanduser('~') + ".pyros/storage.config"
 
 storageMap = {}
 
