@@ -19,7 +19,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="pyros-storage",
-    version="1.0.0",
+    version="1.1.0",
     author="Daniel Sendula",
     description="PyROS Storage",
     long_description=long_description,

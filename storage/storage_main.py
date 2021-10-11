@@ -20,7 +20,9 @@ import pyroslib
 
 DEBUG = False
 
-STORAGE_MAP_FILE = os.path.expanduser('~') + ".pyros/storage.config"
+# STORAGE_MAP_FILE = os.path.expanduser('~') + ".pyros/storage.config"
+
+STORAGE_MAP_FILE = os.path.join(os.environ["PYROS_DATA"], "storage.config")
 
 storageMap = {}
 
